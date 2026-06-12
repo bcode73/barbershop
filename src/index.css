@@ -753,6 +753,25 @@ p {
   border-top: 1px solid rgba(244, 239, 230, 0.15);
 }
 
+.footer__tagline {
+  display: block;
+  margin-top: 0.45rem;
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.66rem;
+  color: var(--accent);
+}
+
+.footer__credit a {
+  color: var(--accent);
+  transition: color 0.25s ease;
+}
+
+.footer__credit a:hover {
+  color: #fdfaf3;
+}
+
 .footer__media {
   position: relative;
   min-height: 360px;

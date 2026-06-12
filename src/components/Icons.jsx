@@ -102,9 +102,21 @@ export function FacebookIcon({ size = '1em' }) {
   );
 }
 
+export function LinkedInIcon({ size = '1em' }) {
+  return (
+    <svg {...base(size)}>
+      <rect x="3" y="3" width="18" height="18" rx="2.2" />
+      <path d="M7.5 10.6v5.9" />
+      <path d="M7.5 7.4v.02" />
+      <path d="M11.6 16.5v-5.9M11.6 13.3a2.6 2.6 0 0 1 5.1 0v3.2" />
+    </svg>
+  );
+}
+
 const socialIcons = {
   instagram: InstagramIcon,
   facebook: FacebookIcon,
+  linkedin: LinkedInIcon,
 };
 
 export function SocialIcon({ network, size }) {

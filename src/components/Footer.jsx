@@ -3,7 +3,7 @@ import ImageWithFallback from './ImageWithFallback';
 import { SocialIcon } from './Icons';
 
 export default function Footer() {
-  const { contact, hours, social } = footer;
+  const { contact, hours, social, credit, tagline } = footer;
 
   return (
     <footer className="footer" id="contact">
@@ -45,6 +45,8 @@ export default function Footer() {
                   href={s.href}
                   aria-label={s.network}
                   className="footer__social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <SocialIcon network={s.network} size="1.25rem" />
                 </a>
@@ -52,7 +54,10 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="footer__brand">{brand.name}</div>
+          <div className="footer__brand">
+            {brand.name}
+            {tagline && <span className="footer__tagline">{tagline}</span>}
+          </div>
         </div>
 
         <div className="footer__media">
@@ -66,9 +71,16 @@ export default function Footer() {
 
       <div className="footer__bar">
         <span>
-          © {new Date().getFullYear()} {brand.name}. All rights reserved.
+          © {new Date().getFullYear()} {brand.name}
         </span>
-        <span>Crafted with care.</span>
+        {credit && (
+          <span className="footer__credit">
+            {credit.label}{' '}
+            <a href={credit.href} target="_blank" rel="noopener noreferrer">
+              {credit.name}
+            </a>
+          </span>
+        )}
       </div>
     </footer>
   );

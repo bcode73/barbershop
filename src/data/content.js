@@ -155,12 +155,18 @@ export const footer = {
     ],
   },
   social: {
-    title: 'Get Social',
+    title: "Let's Connect",
     links: [
-      { network: 'instagram', href: '#' },
-      { network: 'facebook', href: '#' },
+      { network: 'linkedin', href: 'https://www.linkedin.com/in/samsecai' },
     ],
   },
+  // Shown in the footer bar to credit the portfolio author.
+  credit: {
+    label: 'Designed & built by',
+    name: 'SamSec',
+    href: 'https://www.linkedin.com/in/samsecai',
+  },
+  tagline: 'Portfolio demo',
   image: unsplash('1600880292203-757bb62b4baf', 1200),
   imageAlt: 'Three people standing in an open room discussing',
 };
