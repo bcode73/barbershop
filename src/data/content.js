@@ -125,17 +125,17 @@ export const reviews = {
   items: [
     {
       quote:
-        "Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable.",
+        'From our first viewing to closing day, the Thomas Larson Group made everything feel effortless. They knew exactly which neighbourhoods fit our budget and never once pressured us — we ended up in a home we genuinely love.',
       name: 'Powell Finwood',
     },
     {
       quote:
-        "Boost your product and service's credibility by adding testimonials from your clients. People love recommendations so feedback from others who've tried it is invaluable. Boost your product and service's credibility by adding testimonials from your clients.",
+        "We had listed with two other agents before, with no luck. Thomas had our property under offer in eleven days, and for more than we expected. The whole team is responsive, honest, and clearly knows the market inside out. I've already recommended them to friends who are now happy homeowners.",
       name: 'Ingrid Correa',
     },
     {
       quote:
-        "Boost your product and service's credibility by adding testimonials from your clients.",
+        'Professional, warm, and on top of every detail. Selling my first home could have been stressful, but they made it simple.',
       name: 'Hannah Elmore',
     },
   ],
