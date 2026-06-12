@@ -16,7 +16,9 @@ export default function Footer() {
                 {contact.address.map((line) => (
                   <span key={line}>{line}</span>
                 ))}
-                <a href={`tel:${contact.phone.replace(/[^\d+]/g, '')}`}>{contact.phone}</a>
+                {contact.phone && (
+                  <a href={`tel:${contact.phone.replace(/[^\d+]/g, '')}`}>{contact.phone}</a>
+                )}
                 <a href={`mailto:${contact.email}`}>{contact.email}</a>
               </address>
             </div>

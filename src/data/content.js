@@ -144,16 +144,14 @@ export const reviews = {
 export const footer = {
   contact: {
     title: 'Contact Us',
-    address: ['123 Anywhere St.', 'Any City, ST 12345'],
-    phone: '(123) 456-7890',
-    email: 'hello@reallygreatsite.com',
+    address: ['445 Lekki', 'Lagos, Nigeria'],
+    phone: '',
+    email: 'studio@samsec.com.ng',
   },
   hours: {
     title: 'Office Hours',
     lines: [
-      { days: 'Monday to Friday', time: '9:00 am to 6:00 pm' },
-      { days: 'Saturday', time: '9:00 am to 12 noon' },
-      { days: 'Sunday', time: 'by appointment only.' },
+      { days: 'Open 24/7', time: 'Available any time, any day' },
     ],
   },
   social: {
